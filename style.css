@@ -1,0 +1,42 @@
+p, h1, h2, li, a {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+header h1 {
+	text-align: center;
+	color: #000000;
+	font-size: 180%;
+
+
+}
+
+.mainTitle {
+	color: #ccc;
+	font-size: 80%;
+	font-weight: 100;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	text-align: center;
+}
+
+
+a img {
+
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
