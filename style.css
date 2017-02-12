@@ -1,4 +1,4 @@
-p, h1, h2, li, a {
+p, h1, h2, h3, h4, li, a {
 	font-family: "Segoe UI", Helvetica, sans-serif;
 }
 
@@ -83,15 +83,72 @@ body {
 
 /*-------START OF EDUCATION PAGE-------*/
 
-.titleOnPhoto {
-	padding-top: 5%;
+.titleOnPhoto h2 {
+	padding-top: 10%;
 	text-align: center;
+	font-size: 200%;
+	letter-spacing: 4px;
+
+
 }
 
 .trent {
 	opacity: .5;
+	position: absolute;
+	left: 0px;
+	top:0px;
+	z-index: -1;
+	padding-top: 8%;
+
 }
 
+.trentu, .adamScott {
+	background-color: #5b5b5b;
+	color: #FFF;
+	height: 200px;
+	width: 250px;
+	padding-top: 10px;
+	text-align: center;
+	margin-top: 30%;
+}
+
+.trentu:link {
+	color: #FFF;
+}
+
+.trentu {
+	margin-left: 10%;
+}
+
+.trentu a, .adamScott a {
+	text-decoration: none;
+}
+
+.trentu a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.trentu:hover {
+	background-color: #333;
+}
+
+.adamScott:link {
+	color: #FFF;
+}
+
+.adamScott {
+	margin-left: 20%;
+}
+
+.adamScott a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.adamScott:hover {
+	background-color: #333;
+}
 
 /*-------END OF EDUCATION PAGE-------*/
 
@@ -100,6 +157,8 @@ footer {
 	text-align: center;
 	padding-top: 0.5px;
 	padding-bottom: 0.5px;
+
+	bottom: 0;
 }
 /*-------END OF CROSS-WEBSITE FOOTER-------*/
 
