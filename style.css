@@ -7,6 +7,7 @@ body {
 	margin: 0;
 }
 
+/*-----START OF CROSS-WEBSITE NAV BAR-------*/
 
 .mainTitle {
 	color: #ccc;
@@ -53,27 +54,53 @@ body {
     background-color: #111;
     }
 
-header h1 {
-	text-align: center;
-	color: #000000;
-	font-size: 180%;
-}
+/*-------END OF NAV BAR-------*/
 
-a img {
+/*-------START OF HOME PAGE-------*/
 
-	padding-left: 10px;
-	padding-right: 10px;
+.homePageTitle {
+	padding-top: 3%;
 }
 
 .img-circle {
 	border-radius: 50%;
 }
 
+.blurb {
 
+	padding-top: 10%;
+	padding-right: 5%;
+}
+
+.w3-btn img {
+
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/*-------END OF HOME PAGE-------*/
+
+/*-------START OF EDUCATION PAGE-------*/
+
+.titleOnPhoto {
+	padding-top: 5%;
+	text-align: center;
+}
+
+.trent {
+	opacity: .5;
+}
+
+
+/*-------END OF EDUCATION PAGE-------*/
+
+/*-------START OF CROSS-WEBSITE FOOTER-------*/
 footer {
 	text-align: center;
 	padding-top: 0.5px;
 	padding-bottom: 0.5px;
-
 }
+/*-------END OF CROSS-WEBSITE FOOTER-------*/
+
 
