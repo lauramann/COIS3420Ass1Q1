@@ -44,10 +44,14 @@ body {
 .mainNav li a {
 	letter-spacing: 3px;
     display: inline-block;
-    color: white;
+    color: #FFF;
     padding: 14px 16px;
     text-decoration: none;
 }
+
+.mainNav li a:hover {
+    background-color: #111;
+    }
 
 header h1 {
 	text-align: center;
@@ -63,5 +67,13 @@ a img {
 
 .img-circle {
 	border-radius: 50%;
+}
+
+
+footer {
+	text-align: center;
+	padding-top: 0.5px;
+	padding-bottom: 0.5px;
+
 }
 
