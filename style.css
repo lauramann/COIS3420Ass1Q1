@@ -84,44 +84,43 @@ body {
 /*-------START OF EDUCATION PAGE-------*/
 
 .titleOnPhoto h2 {
-	padding-top: 10%;
+	padding-top: 12%;
 	text-align: center;
-	font-size: 200%;
+	font-size: 400%;
 	letter-spacing: 4px;
-
-
+	font-weight: 100;
+	color: #000;
 }
 
-.trent {
+/*photo styling*/
+.backPhoto {
 	opacity: .5;
 	position: absolute;
 	left: 0px;
 	top:0px;
 	z-index: -1;
-	padding-top: 8%;
-
 }
 
-.trentu, .adamScott {
-	background-color: #5b5b5b;
-	color: #FFF;
-	height: 200px;
-	width: 250px;
-	padding-top: 10px;
-	text-align: center;
-	margin-top: 30%;
+.schools {
+	margin-top: 300px;
+}
+
+.schools ul {
+	list-style-type: none;
+}
+
+.schools li {
+float: left;
+text-decoration: none;
+}
+
+/*Trent U box*/
+li.trentu {
+	margin-left: 20%;
 }
 
 .trentu:link {
 	color: #FFF;
-}
-
-.trentu {
-	margin-left: 10%;
-}
-
-.trentu a, .adamScott a {
-	text-decoration: none;
 }
 
 .trentu a:visited {
@@ -133,12 +132,27 @@ body {
 	background-color: #333;
 }
 
+/*Trent U and Adam Scott boxes*/
+.trentu, .adamScott {
+	background-color: #5b5b5b;
+	color: #FFF;
+	height: 200px;
+	width: 250px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.trentu a, .adamScott a {
+	text-decoration: none;
+}
+
+/*Adam Scott box*/
 .adamScott:link {
 	color: #FFF;
 }
 
-.adamScott {
-	margin-left: 20%;
+li.adamScott {
+margin-left: 12%;
 }
 
 .adamScott a:visited {
@@ -148,7 +162,7 @@ body {
 
 .adamScott:hover {
 	background-color: #333;
-}
+}*/
 
 /*-------END OF EDUCATION PAGE-------*/
 
