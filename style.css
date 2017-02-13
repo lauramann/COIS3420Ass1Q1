@@ -5,6 +5,11 @@ p, h1, h2, h3, h4, li, a {
 body {
 	background-color: #FFFFFF;
 	margin: 0;
+	margin-bottom: 20;
+}
+
+main {
+	display: block;
 }
 
 /*-----START OF CROSS-WEBSITE NAV BAR-------*/
@@ -56,32 +61,7 @@ body {
 
 /*-------END OF NAV BAR-------*/
 
-/*-------START OF HOME PAGE-------*/
-
-.homePageTitle {
-	padding-top: 3%;
-}
-
-.img-circle {
-	border-radius: 50%;
-}
-
-.blurb {
-
-	padding-top: 10%;
-	padding-right: 5%;
-}
-
-.w3-btn img {
-
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-
-/*-------END OF HOME PAGE-------*/
-
-/*-------START OF EDUCATION PAGE-------*/
+/*-------START OF CROSS-WEBSITE IMAGE AND TITLE-------*/
 
 .titleOnPhoto h2 {
 	padding-top: 12%;
@@ -101,8 +81,62 @@ body {
 	z-index: -1;
 }
 
+/*-------START OF HOME PAGE-------*/
+
+#homePageTitle {
+	padding-top: 1%;
+	text-align: center;
+	font-size: 400%;
+	letter-spacing: 4px;
+	font-weight: 100;
+	color: #000;
+	padding-top: 3%;
+}
+
+figure.self {
+	width: 40%;
+	margin-right: 700px;
+}
+
+.blurb {
+color: #94618E;
+border: 2px solid;
+border-color: #333;
+height: 240px;
+width: 475px;
+border-radius: 4px;
+font-size: 18px;
+font-weight: 100;
+letter-spacing: 2px;
+text-align: center;
+float: right;
+margin-top: 110px;
+margin-right: 100px;
+margin-bottom: 400px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.blurb a {
+	text-decoration: none;
+color: #333;
+
+} 
+
+.w3-btn img {
+
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/*-------END OF HOME PAGE-------*/
+
+/*-------START OF EDUCATION PAGE-------*/
+
 .schools {
 	margin-top: 300px;
+	margin-bottom: 50px;
 }
 
 .schools ul {
@@ -114,9 +148,14 @@ float: left;
 text-decoration: none;
 }
 
+.schools #special {
+	font-size: 12px;
+	font-style: italic;
+}
+
 /*Trent U box*/
 li.trentu {
-	margin-left: 20%;
+	margin-left: 15%;
 }
 
 .trentu:link {
@@ -132,12 +171,18 @@ li.trentu {
 	background-color: #333;
 }
 
+.trentu #specialBold {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 700;
+}
+
 /*Trent U and Adam Scott boxes*/
 .trentu, .adamScott {
 	background-color: #5b5b5b;
 	color: #FFF;
-	height: 200px;
-	width: 250px;
+	height: 250px;
+	width: 350px;
 	padding-top: 10px;
 	text-align: center;
 }
@@ -169,10 +214,13 @@ margin-left: 12%;
 /*-------START OF CROSS-WEBSITE FOOTER-------*/
 footer {
 	text-align: center;
-	padding-top: 0.5px;
-	padding-bottom: 0.5px;
-
+	padding-top: 3px;
+	padding-bottom: 3px;
 	bottom: 0;
+	margin-bottom: 1px;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 700px;
 }
 /*-------END OF CROSS-WEBSITE FOOTER-------*/
 
