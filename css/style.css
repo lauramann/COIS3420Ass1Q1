@@ -1,5 +1,11 @@
+/*-------CROSS-WEBSITE PROPERTIES-------*/
+
 p, h1, h2, h3, h4, li, a {
 	font-family: "Segoe UI", Helvetica, sans-serif;
+}
+
+.bold {
+	font-weight: 700;
 }
 
 body {
@@ -15,6 +21,8 @@ main {
 	margin-right: 5%;
 	margin-bottom: 2%
 }
+
+/*-------END OF CROSS-WEBSITE PROPERTIES-------*/
 
 /*-----START OF CROSS-WEBSITE NAV BAR-------*/
 
@@ -161,7 +169,7 @@ hr {
 	height: 200px;
 	width: 500px;
 	padding-top: 0;
-   padding-left: 0;
+	padding-left: 0;
 }
 
 .emailForm .messageBut {
@@ -206,7 +214,7 @@ hr {
 li.item1 {
 	padding-top: 20px;
 	margin-left: 12%;
-margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .item1:link {
@@ -262,44 +270,98 @@ li.item2 {
 	background-color: #333;
 	}*/
 
-/*-------END OF EDUCATION PAGE-------*/
+	/*-------END OF EDUCATION PAGE-------*/
 
-/*-------START OF SKILLS PAGE-------*/
+	/*-------START OF SKILLS PAGE-------*/
 
-.hello {
-	margin-top: 300px;
-}
+	.hello {
+		margin-top: 300px;
+	}
 
-.hello {
-	margin-top: 300px;
-}
+	.hello {
+		margin-top: 300px;
+	}
 
-.hello p {
-	text-align: center;
-}
+	.hello p {
+		text-align: center;
+	}
 
-.hello .bold {
-	font-weight: 700;
-}
+	.hello .csharp {
+		font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+		font-size: 24px;
+	}
 
-.hello .csharp {
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-	font-size: 24px;
-}
+	.hello table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	.hello th, td {
+		padding: 5px;
+		text-align: left;
+	}
 
-.hello table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-.hello th, td {
-    padding: 5px;
-    text-align: left;
-}
+	.hello .skillset {
+		margin-left: 240px;
+	}
 
-.hello .skillset {
-	margin-left: 240px;
-/*	float: left;*/
-}
+	/*-------START OF WORK EXPERIENCE PAGE-------*/
+
+	.work {
+		margin-top: 300px;
+	}
+
+	.work .fadeText {
+		color: #999;
+	}
+
+	.work a {
+		color: #000;
+	}
+
+	.work a:hover {
+		color: #94618E;
+		text-decoration: none;
+	}
+
+	.work a:visited {
+		color: #4d004d;
+		text-decoration: none;
+	}
+
+	.work h4 {
+		font-size: 19px;
+	}
+
+/*-------END OF WORK EXPERIENCE PAGE-------*/
+
+	.volunteer {
+		margin-top: 300px;
+	}
+
+	.volunteer a {
+		color: #000;
+	}
+
+	.volunteer a:hover {
+		color: #94618E;
+		text-decoration: none;
+	}
+
+	.volunteer a:visited {
+		color: #4d004d;
+		text-decoration: none;
+	}
+
+	.volunteer h4 {
+		font-size: 19px;
+	}
+
+	.volunteer .title {
+		padding-top: 20px;
+		text-align: center;
+		padding-bottom: 5px;
+	}
+
 
 /*-------START OF CROSS-WEBSITE FOOTER-------*/
 	footer {
@@ -313,6 +375,6 @@ li.item2 {
 		margin-top: 20px;
 	}
 
-	/*-------END OF CROSS-WEBSITE FOOTER-------*/
+/*-------END OF CROSS-WEBSITE FOOTER-------*/
 
 
