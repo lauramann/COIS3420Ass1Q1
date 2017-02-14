@@ -265,46 +265,41 @@ li.item2 {
 /*-------END OF EDUCATION PAGE-------*/
 
 /*-------START OF SKILLS PAGE-------*/
-.skills {
+
+.hello {
 	margin-top: 300px;
-	margin-bottom: 50px;
 }
 
-.skills ul {
-	list-style-type: none;
+.hello {
+	margin-top: 300px;
 }
 
-.skills li {
-	float: left;
-	text-decoration: none;
-}
-
-/*Languages box*/
-li.languages {
-	margin-left: 15%;
-}
-
-/*Languages & Frameworks boxes*/
-.languages, .frameworks {
-	background-color: #5b5b5b;
-	color: #FFF;
-	height: 250px;
-	width: 350px;
-	padding-top: 10px;
+.hello p {
 	text-align: center;
-	margin-top: 250px;
 }
 
-.languages a, .frameworks a {
-	text-decoration: none;
+.hello .bold {
+	font-weight: 700;
 }
 
-/*Frameworks box*/
-
-li.frameworks {
-	margin-left: 12%;
+.hello .csharp {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 24px;
 }
 
+.hello table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.hello th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+.hello .skillset {
+	margin-left: 240px;
+/*	float: left;*/
+}
 
 /*-------START OF CROSS-WEBSITE FOOTER-------*/
 	footer {
@@ -317,6 +312,7 @@ li.frameworks {
 		overflow: hidden;
 		margin-top: 20px;
 	}
+
 	/*-------END OF CROSS-WEBSITE FOOTER-------*/
 
 
