@@ -1,0 +1,319 @@
+p, h1, h2, h3, h4, li, a {
+	font-family: "Segoe UI", Helvetica, sans-serif;
+}
+
+body {
+	background-color: #FFFFFF;
+	margin: 0;
+	margin-bottom: 20;
+}
+
+main {
+	display: block;
+	width 700px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%
+}
+
+/*-----START OF CROSS-WEBSITE NAV BAR-------*/
+
+.mainTitle {
+	color: #ccc;
+	font-size: 80%;
+	font-weight: 100;
+}
+
+.mainNav {
+	width: 90%;
+	margin-right: 10%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.mainNav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.mainNav li {
+	float: right;
+}
+
+.mainNav .floatLeft {
+	float: left;
+}
+
+.mainNav li a {
+	letter-spacing: 3px;
+	display: inline-block;
+	color: #FFF;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.mainNav li a:hover {
+	background-color: #111;
+}
+
+/*-------END OF NAV BAR-------*/
+
+/*-------START OF CROSS-WEBSITE IMAGE AND TITLE-------*/
+
+.titleOnPhoto h2 {
+	padding-top: 12%;
+	text-align: center;
+	font-size: 400%;
+	letter-spacing: 4px;
+	font-weight: 100;
+	color: #000;
+}
+
+/*photo styling*/
+.backPhoto {
+	opacity: .5;
+	position: absolute;
+	left: 0px;
+	top:0px;
+	z-index: -1;
+}
+
+/*-------START OF HOME PAGE-------*/
+
+#homePageTitle {
+	padding-top: 1%;
+	text-align: center;
+	font-size: 400%;
+	letter-spacing: 4px;
+	font-weight: 100;
+	color: #000;
+	padding-top: 8%;
+}
+
+figure.self {
+	width: 40%;
+	margin-right: 700px;
+}
+
+.blurb {
+	color: #94618E;
+	border: 2px solid;
+	border-color: #333;
+	height: 260px;
+	width: 475px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-align: center;
+	float: right;
+	margin-top: 110px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.blurb a {
+	text-decoration: none;
+	color: #333;
+	padding-left: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 7px;
+	border-style: solid;
+	border-color: #000;
+	border-radius: 6px;
+	border-width: 1px;
+} 
+
+.blurb a:hover {
+	color: #FFF;
+	background-color: #94618E;
+}
+
+hr {
+	width: 100%;
+}
+
+.emailForm h4 {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.emailForm p {
+	text-align: center;
+}
+.emailForm form {
+	padding-left: 300px;
+}
+
+.emailForm .comment {
+	height: 200px;
+	width: 500px;
+	padding-top: 0;
+   padding-left: 0;
+}
+
+.emailForm .messageBut {
+	border-radius: 4px;
+	color: #333;
+	background-color: #FFF;
+}
+
+.emailForm .messageBut:hover {
+	color: #FFF;
+	background-color: #94618E;
+}
+
+
+/*-------END OF HOME PAGE-------*/
+
+/*-------START OF EDUCATION PAGE-------*/
+
+.boxedList {
+	margin-top: 300px;
+	margin-bottom: 50px;
+}
+
+.boxedList ul {
+	list-style-type: none;
+}
+
+.boxedList li {
+	float: left;
+	text-decoration: none;
+}
+
+.boxedList h4, .boxedList h3 {
+	color: #FFF;
+}
+
+.boxedList #special {
+	font-size: 12px;
+	font-style: italic;
+}
+
+/*Trent U box*/
+li.item1 {
+	margin-left: 15%;
+}
+
+.item1:link {
+	color: #FFF;
+}
+
+.item1 a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.item1:hover {
+	background-color: #333;
+}
+
+.item1 #specialBold {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+/*Trent U and Adam Scott boxes*/
+.item1, .item2 {
+	background-color: #5b5b5b;
+	color: #FFF;
+	height: 250px;
+	width: 350px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.item1 a, .item2 a {
+	text-decoration: none;
+}
+
+/*Adam Scott box*/
+.item2:link {
+	color: #FFF;
+}
+
+li.item2 {
+	margin-left: 12%;
+}
+
+.item2 a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.item2:hover {
+	background-color: #333;
+	}*/
+
+/*-------END OF EDUCATION PAGE-------*/
+
+/*-------START OF SKILLS PAGE-------*/
+.skills {
+	margin-top: 300px;
+	margin-bottom: 50px;
+}
+
+.skills ul {
+	list-style-type: none;
+}
+
+.skills li {
+	float: left;
+	text-decoration: none;
+}
+
+/*Languages box*/
+li.languages {
+	margin-left: 15%;
+}
+
+/*Languages & Frameworks boxes*/
+.languages, .frameworks {
+	background-color: #5b5b5b;
+	color: #FFF;
+	height: 250px;
+	width: 350px;
+	padding-top: 10px;
+	text-align: center;
+	margin-top: 250px;
+}
+
+.languages a, .frameworks a {
+	text-decoration: none;
+}
+
+/*Frameworks box*/
+
+li.frameworks {
+	margin-left: 12%;
+}
+
+
+/*-------START OF CROSS-WEBSITE FOOTER-------*/
+	footer {
+		text-align: center;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		bottom: 0;
+		margin-bottom: 1px;
+		width: 100%;
+		overflow: hidden;
+		margin-top: 20px;
+	}
+	/*-------END OF CROSS-WEBSITE FOOTER-------*/
+
+
