@@ -68,7 +68,7 @@ main {
 /*-------START OF CROSS-WEBSITE IMAGE AND TITLE-------*/
 
 .titleOnPhoto h2 {
-	padding-top: 12%;
+	padding-top: 15%;
 	text-align: center;
 	font-size: 400%;
 	letter-spacing: 4px;
@@ -175,7 +175,6 @@ hr {
 	background-color: #94618E;
 }
 
-
 /*-------END OF HOME PAGE-------*/
 
 /*-------START OF EDUCATION PAGE-------*/
@@ -205,7 +204,9 @@ hr {
 
 /*Trent U box*/
 li.item1 {
-	margin-left: 15%;
+	padding-top: 20px;
+	margin-left: 12%;
+margin-bottom: 30px;
 }
 
 .item1:link {
@@ -235,6 +236,7 @@ li.item1 {
 	width: 350px;
 	padding-top: 10px;
 	text-align: center;
+
 }
 
 .item1 a, .item2 a {
@@ -248,6 +250,7 @@ li.item1 {
 
 li.item2 {
 	margin-left: 12%;
+	padding-top: 38px;
 }
 
 .item2 a:visited {
