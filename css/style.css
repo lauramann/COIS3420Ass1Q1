@@ -1,6 +1,6 @@
 /*-------CROSS-WEBSITE PROPERTIES-------*/
 
-p, h1, h2, h3, h4, li, a {
+p, h1, h2, h3, h4, li, a, tr, td {
 	font-family: "Segoe UI", Helvetica, sans-serif;
 }
 
@@ -76,7 +76,7 @@ main {
 /*-------START OF CROSS-WEBSITE IMAGE AND TITLE-------*/
 
 .titleOnPhoto h2 {
-	padding-top: 15%;
+	padding-top: 12%;
 	text-align: center;
 	font-size: 400%;
 	letter-spacing: 4px;
@@ -129,6 +129,10 @@ figure.self {
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+.blurb p {
+	margin-bottom: 50px;
 }
 
 .blurb a {
@@ -259,11 +263,16 @@ li.item1 {
 li.item2 {
 	margin-left: 12%;
 	padding-top: 38px;
+	margin-bottom: 30px;
 }
 
 .item2 a:visited {
 	color: #FFF;
 	text-decoration: none;
+}
+
+.item1 p, .item2 p {
+	color: #FFF;
 }
 
 .item2:hover {
@@ -328,8 +337,17 @@ li.item2 {
 		text-decoration: none;
 	}
 
+	.work a:link {
+		text-decoration: none;
+	}
+
 	.work h4 {
+		font-size: 16px;
+	}
+
+	.work h3 {
 		font-size: 19px;
+		font-weight: 100;
 	}
 
 /*-------END OF WORK EXPERIENCE PAGE-------*/
@@ -352,8 +370,17 @@ li.item2 {
 		text-decoration: none;
 	}
 
+	.volunteer a:link {
+		text-decoration: none;
+	}
+
 	.volunteer h4 {
+		font-size: 16px;
+	}
+
+	.volunteer h3 {
 		font-size: 19px;
+		font-weight: 100;	
 	}
 
 	.volunteer .title {
